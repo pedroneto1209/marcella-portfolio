@@ -1,22 +1,19 @@
 "use client";
-
 import ProfileImage from "@/components/profile/ProfileImage";
-import { useGlobal } from "@/hooks/GlobalContext";
-import React, { useEffect } from "react";
+import { motion } from "framer-motion";
+import React from "react";
 
 function ProfileContainer() {
-  const { globalBoolean, startGlobalBoolean } = useGlobal();
-
-  useEffect(() => {
-    startGlobalBoolean();
-  }, []);
-
   return (
-    <div
-      className={`flex flex-col space-y-3 ${globalBoolean ? "px-8 pt-20" : ""}`}
-    >
-      {globalBoolean && (
-        <>
+    <>
+      <motion.div
+        layout
+        initial={{ opacity: 0, height: 0 }}
+        animate={{ opacity: 1, height: "auto" }}
+        exit={{ opacity: 0, height: 0 }}
+        transition={{ type: "spring", stiffness: 120, damping: 20, delay: 3 }}
+      >
+        <div className="flex flex-col space-y-3 px-8 pt-40 md:pt-20">
           <h1 className="font-main font-semibold text-[61px] text-black">
             Be Different
           </h1>
@@ -26,10 +23,10 @@ function ProfileContainer() {
           <h1 className="font-main font-semibold text-[61px] text-black">
             Be Created
           </h1>
-        </>
-      )}
+        </div>
+      </motion.div>
       <ProfileImage />
-    </div>
+    </>
   );
 }
 
