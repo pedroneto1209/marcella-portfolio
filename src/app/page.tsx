@@ -1,3 +1,5 @@
+import ProfileContainer from "@/containers/profile/ProfileContainer";
+
 export default function Home() {
-  return <h1>PEDRO NETO</h1>;
+  return <ProfileContainer />;
 }

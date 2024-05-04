@@ -1,5 +1,8 @@
+"use client";
+
 import HeaderContainer from "@/containers/header/HeaderContainer";
 import "../styles/globals.css";
+import { GlobalProvider } from "@/hooks/GlobalContext";
 
 export default function RootLayout({
   children,
@@ -10,8 +13,10 @@ export default function RootLayout({
     <html suppressHydrationWarning>
       <body suppressHydrationWarning>
         <main>
-          <HeaderContainer />
-          {children}
+          <GlobalProvider>
+            <HeaderContainer />
+            {children}
+          </GlobalProvider>
         </main>
       </body>
     </html>
