@@ -26,6 +26,16 @@ function ProfileContainer() {
         </div>
       </motion.div>
       <ProfileImage />
+      <div className="h-16"></div>
+      <p className="font-main font-regular text-[20px] md:text-[25px] text-gray-dark text-right px-8 pt-12 pb-20">
+        My mission is, through strategy and
+        <br />
+        study, to reveal strengths and elevate
+        <br />
+        the brand, ensuring effective and
+        <br />
+        unique experiences.
+      </p>
     </>
   );
 }
