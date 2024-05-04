@@ -11,7 +11,7 @@ function HeaderContainer() {
       layout
       initial={{ opacity: 0, height: 0 }}
       animate={{ opacity: 1, height: "85px" }}
-      transition={{ type: "spring", stiffness: 120, damping: 20, delay: 3 }}
+      transition={{ type: "spring", stiffness: 120, damping: 20, delay: 4 }}
     >
       <nav className="px-8 pt-8 pb-3">
         <div className="flex items-center justify-between">

@@ -9,6 +9,7 @@ function ProfileImage() {
       initial={{ padding: "0 0 0 0" }}
       animate={{ padding: "0 32px 0 32px" }}
       transition={{ type: "spring", stiffness: 120, damping: 20, delay: 3 }}
+      className="relative"
     >
       <motion.img
         initial={{ borderRadius: 0 }}
@@ -21,6 +22,43 @@ function ProfileImage() {
         sizes="100vw"
         className="w-full"
       />
+
+      <div className="absolute top-0 left-0 w-full h-full">
+        <svg viewBox="0 0 1000 500">
+          <motion.path
+            id="myPath"
+            className="text-brand"
+            fill="none"
+            strokeWidth="45"
+            stroke="currentColor"
+            d="M-100 250 C 200 10, 200 10, 350 300 S 650 350 700 200 S 800 0 1100 150"
+            pathLength="1"
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{ duration: 3 }}
+          />
+
+          <motion.text
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 120,
+              damping: 20,
+              delay: 3,
+            }}
+            fill="white"
+            className="font-main font-semibold text-[20px]"
+          >
+            <textPath xlinkHref="#myPath" dominant-baseline="middle">
+              PRODUCT DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT
+              DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN * UX
+              DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN * UX DESIGN * UI
+              DESIGN * PSYCHOLOGY
+            </textPath>
+          </motion.text>
+        </svg>
+      </div>
     </motion.div>
   );
 }
