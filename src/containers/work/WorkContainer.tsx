@@ -26,7 +26,7 @@ function WorkContainer() {
         <WorkCard name="card-doebem" />
         <WorkCard name="card-mais" />
       </div>
-      <div className="flex flex-col md:flex-row justify-between px-8 pt-20 md:items-end">
+      <div className="flex flex-col md:flex-row justify-between px-8 py-20 md:items-end">
         <p className="font-main pb-8 font-medium text-[30px] md:text-[48px] text-black text-left">
           I'M A
           <br />

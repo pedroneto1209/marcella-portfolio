@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 
 function WorkButton() {
   return (
-    <motion.a
-      href="#"
+    <motion.div
       aria-current="page"
       className="relative"
       whileHover="hover"
@@ -32,7 +31,7 @@ function WorkButton() {
           },
         }}
       ></motion.div>
-    </motion.a>
+    </motion.div>
   );
 }
 

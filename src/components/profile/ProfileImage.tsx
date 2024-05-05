@@ -50,7 +50,7 @@ function ProfileImage() {
             fill="white"
             className="font-main font-semibold text-[20px]"
           >
-            <textPath xlinkHref="#myPath" dominant-baseline="middle">
+            <textPath xlinkHref="#myPath" dominantBaseline="middle">
               PRODUCT DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT
               DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN * UX
               DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN * UX DESIGN * UI
