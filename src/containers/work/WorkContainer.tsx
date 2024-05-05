@@ -22,9 +22,24 @@ function WorkContainer() {
         ></motion.div>
       </div>
       <div className="flex space-x-3 px-8 items-center justify-center">
-        <WorkCard name="card-byte" />
-        <WorkCard name="card-doebem" />
-        <WorkCard name="card-mais" />
+        <WorkCard
+          name="card-byte"
+          title1="BYTE"
+          title2="CRIATIVO"
+          description="CREATION OF THE WEBSITE FOR A NEW COMPANY WITH THE AIM OF CONSOLIDATION IT WITHIN THE MARKET"
+        />
+        <WorkCard
+          name="card-doebem"
+          title1="ONG"
+          title2="DOEBEM"
+          description="CREATION OF THE WEBSITE FOR A NEW COMPANY WITH THE AIM OF CONSOLIDATION IT WITHIN THE MARKET"
+        />
+        <WorkCard
+          name="card-mais"
+          title1="MAIS"
+          title2="VALUE"
+          description="CREATION OF THE WEBSITE FOR A NEW COMPANY WITH THE AIM OF CONSOLIDATION IT WITHIN THE MARKET"
+        />
       </div>
       <div className="flex flex-col md:flex-row justify-between px-8 py-20 md:items-end">
         <p className="font-main pb-8 font-medium text-[30px] md:text-[48px] text-black text-left">

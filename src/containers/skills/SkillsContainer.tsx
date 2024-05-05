@@ -28,12 +28,12 @@ function SkillsContainer() {
         >
           <svg viewBox="0 0 1000 500">
             <motion.path
-              id="myPath"
+              id="myPath2"
               className="text-white"
               fill="none"
-              strokeWidth="45"
+              strokeWidth="30"
               stroke="currentColor"
-              d="M-100 250 C 200 10, 200 10, 350 300 S 650 350 700 200 S 800 0 1100 150"
+              d="M-100 250 C 50 0, 300 300, 300 300 S 300 300 300 300 S 450 500 650 400 S 600 -100 500 100 S 900 100 1100 250"
               pathLength={useTransform(
                 scrollYProgress,
                 [0.25, 0.4],
@@ -42,7 +42,7 @@ function SkillsContainer() {
             />
 
             <text className="font-main font-semibold text-[20px]">
-              <textPath xlinkHref="#myPath" dominantBaseline="middle">
+              <textPath xlinkHref="#myPath2" dominantBaseline="middle">
                 PRODUCT DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT
                 DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN *
                 UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN * UX DESIGN
@@ -54,37 +54,70 @@ function SkillsContainer() {
 
         <div className="relative z-20 w-full">
           <div className="absolute left-[10%] md:left-[10%] lg:left-[20%] top-[0px] lg:top-[0px]">
-            <SkillsCard name={cards[0]} />
+            <SkillsCard
+              name={cards[0]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[60%] md:left-[50%] lg:left-[70%] top-[600px] lg:top-[700px]">
-            <SkillsCard name={cards[1]} />
+            <SkillsCard
+              name={cards[1]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[10%] md:left-[30%] lg:left-[40%] top-[1200px] lg:top-[1400px]">
-            <SkillsCard name={cards[2]} />
+            <SkillsCard
+              name={cards[2]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[60%] md:left-[10%] lg:left-[10%] top-[1800px] lg:top-[2100px]">
-            <SkillsCard name={cards[3]} />
+            <SkillsCard
+              name={cards[3]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[10%] md:left-[50%] lg:left-[70%] top-[2400px] lg:top-[2800px]">
-            <SkillsCard name={cards[4]} />
+            <SkillsCard
+              name={cards[4]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[60%] md:left-[30%] lg:left-[50%] top-[3000px] lg:top-[3500px]">
-            <SkillsCard name={cards[5]} />
+            <SkillsCard
+              name={cards[5]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[10%] md:left-[10%] lg:left-[20%] top-[3600px] lg:top-[4200px]">
-            <SkillsCard name={cards[6]} />
+            <SkillsCard
+              name={cards[6]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[60%] md:left-[50%] lg:left-[60%] top-[4200px] lg:top-[4900px]">
-            <SkillsCard name={cards[7]} />
+            <SkillsCard
+              name={cards[7]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[10%] md:left-[30%] lg:left-[70%] top-[4800px] lg:top-[5600px]">
-            <SkillsCard name={cards[8]} />
+            <SkillsCard
+              name={cards[8]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[60%] md:left-[10%] lg:left-[20%] top-[5400px] lg:top-[6300px]">
-            <SkillsCard name={cards[9]} />
+            <SkillsCard
+              name={cards[9]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
           <div className="absolute left-[10%] md:left-[50%] lg:left-[45%] top-[6000px] lg:top-[7000px]">
-            <SkillsCard name={cards[10]} />
+            <SkillsCard
+              name={cards[10]}
+              description="Lorem ipsum dolor pedro alves de oliveira neto"
+            />
           </div>
         </div>
       </div>
