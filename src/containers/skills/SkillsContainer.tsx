@@ -5,9 +5,22 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 function SkillsContainer() {
   const { scrollYProgress } = useScroll();
+  const cards: string[] = [
+    "Design System",
+    "Design Thinking",
+    "Information Architecture",
+    "Persona",
+    "Prototype",
+    "Responsive Design",
+    "Usability Test",
+    "User Flow",
+    "User Journey",
+    "UX Research",
+    "Wireframe",
+  ];
 
   return (
-    <div className="h-[6500px]">
+    <div className="h-[7600px] md:h-[9100px]">
       <div
         className="w-full h-screen bg-black rounded-3xl"
         style={{ position: "sticky", top: "0", marginTop: "150px" }}
@@ -35,26 +48,38 @@ function SkillsContainer() {
       </div>
 
       <div className="relative z-20 w-full">
-        <div className="absolute left-8 md:left-40 lg:left-96">
-          <SkillsCard />
+        <div className="absolute left-[10%] md:left-[10%] lg:left-[20%] top-[0px] lg:top-[0px]">
+          <SkillsCard name={cards[0]} />
         </div>
-        <div className="absolute right-8 top-[700px] md:right-40 lg:right-96 md:top-[900px]">
-          <SkillsCard />
+        <div className="absolute left-[60%] md:left-[50%] lg:left-[70%] top-[600px] lg:top-[700px]">
+          <SkillsCard name={cards[1]} />
         </div>
-        <div className="absolute left-8 top-[1400px] md:left-80 lg:left-[600px] md:top-[1800px]">
-          <SkillsCard />
+        <div className="absolute left-[10%] md:left-[30%] lg:left-[40%] top-[1200px] lg:top-[1400px]">
+          <SkillsCard name={cards[2]} />
         </div>
-        <div className="absolute right-8 top-[2100px] md:right-20 lg:right-[200px] md:top-[2700px]">
-          <SkillsCard />
+        <div className="absolute left-[60%] md:left-[10%] lg:left-[10%] top-[1800px] lg:top-[2100px]">
+          <SkillsCard name={cards[3]} />
         </div>
-        <div className="absolute left-8 top-[2800px] md:left-40 lg:left-96 md:top-[3600px]">
-          <SkillsCard />
+        <div className="absolute left-[10%] md:left-[50%] lg:left-[70%] top-[2400px] lg:top-[2800px]">
+          <SkillsCard name={cards[4]} />
         </div>
-        <div className="absolute right-8 top-[3500px] md:right-40 lg:right-96 md:top-[4500px]">
-          <SkillsCard />
+        <div className="absolute left-[60%] md:left-[30%] lg:left-[50%] top-[3000px] lg:top-[3500px]">
+          <SkillsCard name={cards[5]} />
         </div>
-        <div className="absolute right-8 top-[4200px] md:right-40 lg:right-96 md:top-[5400px]">
-          <div className="skill-cards rounded-3xl w-40 md:w-80"></div>
+        <div className="absolute left-[10%] md:left-[10%] lg:left-[20%] top-[3600px] lg:top-[4200px]">
+          <SkillsCard name={cards[6]} />
+        </div>
+        <div className="absolute left-[60%] md:left-[50%] lg:left-[60%] top-[4200px] lg:top-[4900px]">
+          <SkillsCard name={cards[7]} />
+        </div>
+        <div className="absolute left-[10%] md:left-[30%] lg:left-[70%] top-[4800px] lg:top-[5600px]">
+          <SkillsCard name={cards[8]} />
+        </div>
+        <div className="absolute left-[60%] md:left-[10%] lg:left-[20%] top-[5400px] lg:top-[6300px]">
+          <SkillsCard name={cards[9]} />
+        </div>
+        <div className="absolute left-[10%] md:left-[50%] lg:left-[45%] top-[6000px] lg:top-[7000px]">
+          <SkillsCard name={cards[10]} />
         </div>
       </div>
     </div>
