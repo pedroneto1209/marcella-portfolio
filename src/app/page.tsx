@@ -1,4 +1,5 @@
 import ProfileContainer from "@/containers/profile/ProfileContainer";
+import SkillsContainer from "@/containers/skills/SkillsContainer";
 import WorkContainer from "@/containers/work/WorkContainer";
 
 export default function Home() {
@@ -6,6 +7,8 @@ export default function Home() {
     <>
       <ProfileContainer />
       <WorkContainer />
+      <SkillsContainer />
+      <div className="bg-white h-[2000px]"></div>
     </>
   );
 }

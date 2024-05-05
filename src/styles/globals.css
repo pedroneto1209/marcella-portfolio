@@ -4,3 +4,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.skill-cards {
+  height: 300px;
+}
+
+@media (min-width: 768px) {
+  .skill-cards {
+    height: 500px;
+  }
+}
