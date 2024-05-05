@@ -8,7 +8,7 @@ export default function Home() {
       <ProfileContainer />
       <WorkContainer />
       <SkillsContainer />
-      <div className="bg-white h-[2000px]"></div>
+      <div className=" h-[2000px]"></div>
     </>
   );
 }
