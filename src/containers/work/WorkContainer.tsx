@@ -15,13 +15,13 @@ function WorkContainer() {
         </span>
         <motion.div
           style={{
-            width: useTransform(scrollYProgress, [0.6, 1], ["0%", "100%"]),
+            width: useTransform(scrollYProgress, [0.05, 0.1], ["0%", "100%"]),
             originX: 0,
           }}
           className="h-px bg-gray-dark"
         ></motion.div>
       </div>
-      <div className="flex space-x-3 px-8 items-center justify-center">
+      <div className="flex flex-col md:flex-row space-y-3 md:space-x-3 px-8 items-center justify-center">
         <WorkCard
           name="card-byte"
           title1="BYTE"

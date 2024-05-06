@@ -36,7 +36,7 @@ function SkillsContainer() {
               d="M-100 250 C 50 0, 300 300, 300 300 S 300 300 300 300 S 450 500 650 400 S 600 -100 500 100 S 900 100 1100 250"
               pathLength={useTransform(
                 scrollYProgress,
-                [0.25, 0.4],
+                [0.15, 0.8],
                 ["0", "1"]
               )}
             />

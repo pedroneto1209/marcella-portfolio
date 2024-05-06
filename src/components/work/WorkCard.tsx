@@ -23,7 +23,7 @@ function WorkCard({ name, title1, title2, description }: Props) {
       }}
       transition={{ type: "spring", stiffness: 120, damping: 20 }}
     >
-      <motion.div className="relative overflow-hidden rounded-3xl h-[780px]">
+      <motion.div className="relative overflow-hidden rounded-3xl md:h-[780px] h-[500px]">
         <img
           src={`images/${name}.png`}
           alt="Optimized Logo"
