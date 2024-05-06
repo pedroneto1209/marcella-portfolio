@@ -95,7 +95,7 @@ function WorkCard({ name, title1, title2, description }: Props) {
                 />
               </svg>
               <a className="font-main font-regular text-[25px] text-white">
-                Let's see the process
+                Let&apos;s see the process
               </a>
             </div>
 
@@ -155,7 +155,7 @@ function WorkCard({ name, title1, title2, description }: Props) {
                 />
               </svg>
               <a className="font-main font-regular text-[25px] text-white">
-                Let's see the result
+                Let&apos;s see the result
               </a>
             </div>
 

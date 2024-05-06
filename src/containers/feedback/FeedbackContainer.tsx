@@ -24,10 +24,11 @@ function FeedbackContainer() {
           <div className="flex flex-col space-y-8">
             <h1 className="font-main font-bold text-[39px] text-brand">“</h1>
             <p className="font-main font-regular text-[16px] text-gray-dark">
-              Marcella was one of the most competent individuals I've come
+              Marcella was one of the most competent individuals I&apos;ve come
               across in over 10 years of professional experience. She was
-              responsible for the development and management of the doebem's new
-              website project, delivering with high efficiency and quality.
+              responsible for the development and management of the
+              doebem&apos;s new website project, delivering with high efficiency
+              and quality.
             </p>
             <div className="flex space-x-3 items-center">
               <img
@@ -47,10 +48,11 @@ function FeedbackContainer() {
           <div className="flex flex-col space-y-8">
             <h1 className="font-main font-bold text-[39px] text-brand">“</h1>
             <p className="font-main font-regular text-[16px] text-gray-dark">
-              Marcella was one of the most competent individuals I've come
+              Marcella was one of the most competent individuals I&apos;ve come
               across in over 10 years of professional experience. She was
-              responsible for the development and management of the doebem's new
-              website project, delivering with high efficiency and quality.
+              responsible for the development and management of the
+              doebem&apos;s new website project, delivering with high efficiency
+              and quality.
             </p>
             <div className="flex space-x-3 items-center">
               <img
@@ -70,10 +72,11 @@ function FeedbackContainer() {
           <div className="flex flex-col space-y-8">
             <h1 className="font-main font-bold text-[39px] text-brand">“</h1>
             <p className="font-main font-regular text-[16px] text-gray-dark">
-              Marcella was one of the most competent individuals I've come
+              Marcella was one of the most competent individuals I&apos;ve come
               across in over 10 years of professional experience. She was
-              responsible for the development and management of the doebem's new
-              website project, delivering with high efficiency and quality.
+              responsible for the development and management of the
+              doebem&apos;s new website project, delivering with high efficiency
+              and quality.
             </p>
             <div className="flex space-x-3 items-center">
               <img
@@ -101,9 +104,9 @@ function FeedbackContainer() {
 
         <text fill="white" className="font-main font-semibold text-[20px]">
           <textPath xlinkHref="#myPath3" dominantBaseline="middle">
-            aaPRODUCT DESIGN Merging psychology and design, I'm here to bring
-            your next standout product to life. Let's craft effective and
-            authentic solutions customized for your needs
+            aaPRODUCT DESIGN Merging psychology and design, I&apos;m here to
+            bring your next standout product to life. Let&apos;s craft effective
+            and authentic solutions customized for your needs
           </textPath>
         </text>
       </svg>
