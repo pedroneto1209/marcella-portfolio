@@ -12,7 +12,7 @@ function SkillsCard({ name, description }: Props) {
       aria-current="page"
       whileHover="hover"
       animate="rest"
-      className="flex flex-col justify-between items-start skill-cards bg-brand rounded-3xl w-40 md:w-80 px-8 py-[60px] z-20"
+      className="flex flex-col justify-between items-start skill-cards bg-brand rounded-3xl w-40 md:w-80 px-8 py-[60px]"
     >
       <img
         src={`/icons/Icon=${name}.svg`}
