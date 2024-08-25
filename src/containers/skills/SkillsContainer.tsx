@@ -24,7 +24,7 @@ function SkillsContainer() {
       <div className="h-[7600px] md:h-[9100px]">
         <div
           className="w-full h-screen bg-black rounded-3xl"
-          style={{ position: "sticky", top: "0", marginTop: "150px" }}
+          style={{ position: "sticky", top: "0", marginTop: "150px", zIndex: 10}}
         >
           <svg viewBox="0 0 1000 500">
             <motion.path

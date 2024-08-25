@@ -115,7 +115,7 @@ function WorkCard({ name, title1, title2, description }: Props) {
           </motion.div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className="absolute bottom-[148px] right-8"
           variants={{
             rest: { opacity: 0 },
@@ -173,7 +173,7 @@ function WorkCard({ name, title1, title2, description }: Props) {
               }}
             ></motion.div>
           </motion.div>
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </motion.div>
   );

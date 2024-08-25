@@ -2,13 +2,16 @@ import { motion } from "framer-motion";
 
 interface Props {
   name: string;
+  redirect: string;
+  trgt: string;
 }
 
-function HeaderButtonComponent({ name }: Props) {
+function HeaderButtonComponent({ name, redirect, trgt }: Props) {
   return (
     <li>
       <motion.a
-        href="#"
+        href={redirect}
+        target={trgt}
         className="inline-block font-main font-regular text-[20px] text-gray-dark"
         aria-current="page"
         whileHover="hover"
