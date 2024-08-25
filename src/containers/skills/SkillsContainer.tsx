@@ -22,35 +22,7 @@ function SkillsContainer() {
   return (
     <>
       <div className="h-[7600px] md:h-[9100px]">
-        <div
-          className="w-full h-screen bg-black rounded-3xl"
-          style={{ position: "sticky", top: "0", marginTop: "150px"}}
-        >
-          <svg viewBox="0 0 1000 500">
-            <motion.path
-              id="myPath2"
-              className="text-white"
-              fill="none"
-              strokeWidth="30"
-              stroke="currentColor"
-              d="M-100 250 C 50 0, 300 300, 300 300 S 300 300 300 300 S 450 500 650 400 S 600 -100 500 100 S 900 100 1100 250"
-              pathLength={useTransform(
-                scrollYProgress,
-                [0.15, 0.8],
-                ["0", "1"]
-              )}
-            />
-
-            <text className="font-main font-semibold text-[20px]">
-              <textPath xlinkHref="#myPath2" dominantBaseline="middle">
-                PRODUCT DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT
-                DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN *
-                UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN * UX DESIGN
-                * UI DESIGN * PSYCHOLOGY
-              </textPath>
-            </text>
-          </svg>
-        </div>
+        
 
         <div className="relative z-20 w-full">
           <div className="absolute left-[10%] md:left-[10%] lg:left-[20%] top-[0px] lg:top-[0px]">
@@ -119,6 +91,64 @@ function SkillsContainer() {
               description="Lorem ipsum dolor pedro alves de oliveira neto"
             />
           </div>
+        </div>
+
+        <div
+          className="w-full h-screen bg-black rounded-3xl"
+          style={{ position: "sticky", top: "0", marginTop: "150px"}}
+        >
+          <svg viewBox="0 0 1000 500">
+            <motion.path
+              id="myPath2"
+              className="text-white"
+              fill="none"
+              strokeWidth="30"
+              stroke="currentColor"
+              d="M-100 250 C 50 0, 300 300, 300 300 S 300 300 300 300 S 450 500 650 400 S 600 -100 500 100 S 900 100 1100 250"
+              pathLength={useTransform(
+                scrollYProgress,
+                [0.15, 0.8],
+                ["0", "1"]
+              )}
+            />
+
+            <text className="font-main font-semibold text-[20px]">
+              <textPath xlinkHref="#myPath2" dominantBaseline="middle">
+                PRODUCT DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT
+                DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN *
+                UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN * UX DESIGN
+                * UI DESIGN * PSYCHOLOGY
+              </textPath>
+            </text>
+          </svg>
+        </div><div
+          className="w-full h-screen bg-black rounded-3xl"
+          style={{ position: "sticky", top: "0", marginTop: "150px"}}
+        >
+          <svg viewBox="0 0 1000 500">
+            <motion.path
+              id="myPath2"
+              className="text-white"
+              fill="none"
+              strokeWidth="30"
+              stroke="currentColor"
+              d="M-100 250 C 50 0, 300 300, 300 300 S 300 300 300 300 S 450 500 650 400 S 600 -100 500 100 S 900 100 1100 250"
+              pathLength={useTransform(
+                scrollYProgress,
+                [0.15, 0.8],
+                ["0", "1"]
+              )}
+            />
+
+            <text className="font-main font-semibold text-[20px]">
+              <textPath xlinkHref="#myPath2" dominantBaseline="middle">
+                PRODUCT DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT
+                DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN *
+                UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN * UX DESIGN
+                * UI DESIGN * PSYCHOLOGY
+              </textPath>
+            </text>
+          </svg>
         </div>
       </div>
       <p className="font-main font-regular text-[20px] md:text-[25px] text-gray-dark text-right px-8 py-20">
