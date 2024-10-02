@@ -16,9 +16,11 @@ function HeaderContainer() {
     >
       <nav className="px-8 pt-8 pb-3">
         <div className="flex items-center justify-between">
-          <span className="font-brand font-bold text-[31px] text-brand">
-            Marcella.
-          </span>
+          <Link href="/">
+            <span className="font-brand font-bold text-[31px] text-brand">
+              Marcella.
+            </span>
+          </Link>
 
           <button
             onClick={() => setIsOpen(!isOpen)}

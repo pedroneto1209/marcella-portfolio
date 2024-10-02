@@ -53,70 +53,73 @@ function SkillsContainer() {
         </div>
 
         <div className="relative z-20 w-full">
-          <div className="absolute left-[10%] md:left-[10%] lg:left-[20%] top-[0px] lg:top-[0px]">
+          <div
+            id="skills"
+            className="absolute left-[10%] md:left-[10%] lg:left-[20%] top-[0px] lg:top-[0px]"
+          >
             <SkillsCard
               name={cards[0]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="I ensure the standards and consistency of the product, also speeding up the development stage."
             />
           </div>
           <div className="absolute left-[60%] md:left-[50%] lg:left-[70%] top-[600px] lg:top-[700px]">
             <SkillsCard
               name={cards[1]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="User-centered problem-solving focusing on understanding needs, creative brainstorming, prototyping, and iterative testing to create innovative solutions."
             />
           </div>
           <div className="absolute left-[10%] md:left-[30%] lg:left-[40%] top-[1200px] lg:top-[1400px]">
             <SkillsCard
               name={cards[2]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="I structure and organize the content of the website or application in a clear and logical way, making it easier for users to navigate and access information."
             />
           </div>
           <div className="absolute left-[60%] md:left-[10%] lg:left-[10%] top-[1800px] lg:top-[2100px]">
             <SkillsCard
               name={cards[3]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="To represent the users, showing in visual way their goals, behaviors and motivations."
             />
           </div>
           <div className="absolute left-[10%] md:left-[50%] lg:left-[70%] top-[2400px] lg:top-[2800px]">
             <SkillsCard
               name={cards[4]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="This is the stage where I bring the entire process to life, creating a colorful, complete, and sometimes functional interface."
             />
           </div>
           <div className="absolute left-[60%] md:left-[30%] lg:left-[50%] top-[3000px] lg:top-[3500px]">
             <SkillsCard
               name={cards[5]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="I develop interfaces that adapt to different devices and screen sizes, ensuring a consistent user experience on smartphones, tablets, and desktops."
             />
           </div>
           <div className="absolute left-[10%] md:left-[10%] lg:left-[20%] top-[3600px] lg:top-[4200px]">
             <SkillsCard
               name={cards[6]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="I conduct tests to identify usability problems and improve the product, ensuring it is easy and intuitive to use."
             />
           </div>
           <div className="absolute left-[60%] md:left-[50%] lg:left-[60%] top-[4200px] lg:top-[4900px]">
             <SkillsCard
               name={cards[7]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="It's a good form to visually show the path the user will take."
             />
           </div>
           <div className="absolute left-[10%] md:left-[30%] lg:left-[70%] top-[4800px] lg:top-[5600px]">
             <SkillsCard
               name={cards[8]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="With the user journey I can see how the user is experiencing my product, wich let me to find pain points."
             />
           </div>
           <div className="absolute left-[60%] md:left-[10%] lg:left-[20%] top-[5400px] lg:top-[6300px]">
             <SkillsCard
               name={cards[9]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="I do a research about the users, their contexts, needs and pains."
             />
           </div>
           <div className="absolute left-[10%] md:left-[50%] lg:left-[45%] top-[6000px] lg:top-[7000px]">
             <SkillsCard
               name={cards[10]}
-              description="Lorem ipsum dolor pedro alves de oliveira neto"
+              description="I turn the solution into a visual representation in a fast and cost-effective way before designing the final interface."
             />
           </div>
         </div>

@@ -3,6 +3,7 @@ import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import WorkCard from "@/components/work/WorkCard";
 import WorkButton from "@/components/work/WorkButton";
+import Link from "next/link";
 
 function WorkContainer() {
   const { scrollYProgress } = useScroll();
@@ -10,7 +11,10 @@ function WorkContainer() {
   return (
     <>
       <div className="flex space-x-3 p-8 items-center justify-start">
-        <span className="whitespace-nowrap font-main font-regular text-[20px] md:text-[25px] text-gray-dark">
+        <span
+          id="my-work"
+          className="whitespace-nowrap font-main font-regular text-[20px] md:text-[25px] text-gray-dark"
+        >
           My Work
         </span>
         <motion.div
@@ -27,18 +31,21 @@ function WorkContainer() {
           title1="BYTE"
           title2="CRIATIVO"
           description="CREATION OF THE WEBSITE FOR A NEW COMPANY WITH THE AIM OF CONSOLIDATION IT WITHIN THE MARKET"
+          link="https://medium.com/@marcellaclopes/designing-a-software-house-landing-page-a-double-diamond-approach-9ba2be1deb8f"
         />
         <WorkCard
           name="card-doebem"
           title1="ONG"
           title2="DOEBEM"
           description="CREATION OF THE WEBSITE FOR A NEW COMPANY WITH THE AIM OF CONSOLIDATION IT WITHIN THE MARKET"
+          link="https://medium.com/@marcellaclopes/redesigning-an-ngo-website-my-product-design-journey-1b144af411a8"
         />
         <WorkCard
           name="card-mais"
           title1="MAIS"
           title2="VALUE"
           description="CREATION OF THE WEBSITE FOR A NEW COMPANY WITH THE AIM OF CONSOLIDATION IT WITHIN THE MARKET"
+          link=""
         />
       </div>
       <div className="flex flex-col md:flex-row justify-between px-8 py-20 md:items-end">
@@ -53,7 +60,9 @@ function WorkContainer() {
           <br />
           DESIGN
         </p>
-        <WorkButton />
+        <Link href="/about">
+          <WorkButton />
+        </Link>
       </div>
     </>
   );

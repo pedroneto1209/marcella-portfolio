@@ -12,7 +12,7 @@ function SkillsCard({ name, description }: Props) {
       aria-current="page"
       whileHover="hover"
       animate="rest"
-      className="flex flex-col justify-between items-start skill-cards bg-brand rounded-3xl w-40 md:w-80 px-8 py-[60px]"
+      className="flex flex-col justify-between items-start skill-cards bg-brand rounded-3xl w-40 md:w-80 px-2 md:px-8 py-6 md:py-[60px]"
     >
       <img
         src={`/icons/Icon=${name}.svg`}
@@ -21,7 +21,7 @@ function SkillsCard({ name, description }: Props) {
       />
 
       <div className="flex flex-col items-start space-y-2">
-        <h2 className="font-main font-bold text-[20px] md:text-[31px] text-white">
+        <h2 className="font-main font-bold text-[18px] md:text-[31px] text-white">
           {name}
         </h2>
 
@@ -30,13 +30,13 @@ function SkillsCard({ name, description }: Props) {
           initial={false}
           variants={{
             rest: { opacity: 0, height: 0 },
-            hover: { opacity: 1, height: "20px" },
+            hover: { opacity: 1, height: "100px" },
           }}
           transition={{ type: "spring", stiffness: 120, damping: 20 }}
         >
           <div className="flex flex-col items-start space-y-3">
             <div className="w-full h-px bg-white"></div>
-            <h2 className="font-main font-medium text-[13px] md:text-[16px] text-white">
+            <h2 className="font-main font-medium text-[9px] md:text-[16px] text-white">
               {description}
             </h2>
           </div>
