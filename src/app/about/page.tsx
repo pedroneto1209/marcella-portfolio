@@ -178,8 +178,8 @@ export default function About() {
           <br /> discover UX design during my studies. Halfway through my
           psychology degree, I <br />
           realized that traditional paths in the field didn&apos;t resonate with
-          me. That's when I<br /> found a way to merge my love for art with my
-          understanding of human behavior, <br />
+          me. That&apos;s when I<br /> found a way to merge my love for art with
+          my understanding of human behavior, <br />
           diving into the world of UX. <br />
           <br />
           Outside of work, I&apos;m an art lover who enjoys painting, reading,
