@@ -74,8 +74,8 @@ export default function About() {
           field, such as clinical
           <br /> work or HR, no longer sparked my interest. It was then that I
           came across a course
-          <br /> called "Psychology Applied to UX Design," which ignited a new
-          passion in me:
+          <br /> called &quot;Psychology Applied to UX Design&quot;, which
+          ignited a new passion in me:
           <br /> understanding users, their contexts, and needs, and translating
           that into strategic
           <br /> design.
@@ -86,7 +86,7 @@ export default function About() {
           and diving <br />
           headfirst into the world of design. My path began with volunteer work,
           where I led
-          <br /> the redesign process for a nonprofit's website, learning
+          <br /> the redesign process for a nonprofit&apos;s website, learning
           firsthand the importance
           <br /> of teamwork, strategic planning, and applying all the knowledge
           I had gained.
@@ -165,11 +165,11 @@ export default function About() {
       </div>
       <div className="flex justify-end pb-[100px] pt-[64px] px-8">
         <p className="font-main font-regular text-[20px] md:text-[25px] text-gray-dark text-left">
-          I’m Marcella, originally from Maceió, Brazil, a city known for having
-          some of the
+          I&apos;m Marcella, originally from Maceió, Brazil, a city known for
+          having some of the
           <br /> most beautiful beaches in the world. Recently, I embraced an
           incredible <br />
-          opportunity to move to Hamilton, Canada, where I’m continuing my
+          opportunity to move to Hamilton, Canada, where I&apos;m continuing my
           journey in <br />
           UX/UI design.
           <br />
@@ -177,13 +177,13 @@ export default function About() {
           led me to
           <br /> discover UX design during my studies. Halfway through my
           psychology degree, I <br />
-          realized that traditional paths in the field didn’t resonate with me.
-          That's when I<br /> found a way to merge my love for art with my
+          realized that traditional paths in the field didn&apos;t resonate with
+          me. That's when I<br /> found a way to merge my love for art with my
           understanding of human behavior, <br />
           diving into the world of UX. <br />
           <br />
-          Outside of work, I’m an art lover who enjoys painting, reading, and
-          staying <br />
+          Outside of work, I&apos;m an art lover who enjoys painting, reading,
+          and staying <br />
           inspired through social media, where I follow key voices in the UX
           industry. I <br />
           actively participate in workshops and networking events to keep
@@ -191,8 +191,8 @@ export default function About() {
           growing. My goal is to continue evolving in the field, explore diverse
           themes <br />
           through my projects, and maybe even teach one day. With the rise of
-          <br /> technologies like AI, I believe UX has a bright future, and I’m
-          excited to be part of <br />
+          <br /> technologies like AI, I believe UX has a bright future, and
+          I&apos;m excited to be part of <br />
           it.
         </p>
       </div>
@@ -200,7 +200,7 @@ export default function About() {
       <div className="flex md:flex-row flex-col items-center justify-center">
         <div className="flex flex-col space-y-8 items-center flex-1 m-[88px]">
           <h1 className="font-main font-medium text-[48px] text-black text-center">
-            Let’s make an authentic <br /> product together
+            Let&apos;s make an authentic <br /> product together
           </h1>
           <motion.div
             aria-current="page"
