@@ -41,13 +41,13 @@ function HeaderContainer() {
 
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="flex flex-row space-x-5 items-center">
-              <HeaderButtonComponent name="Home" />
-              <HeaderButtonComponent name="About" />
-              <HeaderButtonComponent name="Contact" />
+              <HeaderButtonComponent name="Home" redirect="#" trgt=""/>
+              <HeaderButtonComponent name="About" redirect="https://drive.google.com/file/d/1HpruuEpz2lR-zojiLVeB52WvnGXHeykL/view?usp=sharing" trgt="_blank"/>
+              <HeaderButtonComponent name="Contact" redirect="#" trgt=""/>
 
               <div className="flex flex-row space-x-2 items-center">
-                <HeaderButtonComponent name="EN" />
-                <HeaderButtonComponent name="PT" />
+                <HeaderButtonComponent name="EN" redirect="#" trgt=""/>
+                <HeaderButtonComponent name="PT" redirect="#" trgt=""/>
               </div>
             </ul>
           </div>
@@ -56,13 +56,13 @@ function HeaderContainer() {
       {isOpen && (
         <div className="block pl-8 pb-2 md:hidden" id="navbar-default">
           <ul className="flex flex-col space-y-1">
-            <HeaderButtonComponent name="Home" />
-            <HeaderButtonComponent name="About" />
-            <HeaderButtonComponent name="Contact" />
+            <HeaderButtonComponent name="Home" redirect="#" trgt=""/>
+            <HeaderButtonComponent name="About" redirect="https://drive.google.com/file/d/1HpruuEpz2lR-zojiLVeB52WvnGXHeykL/view?usp=sharing" trgt="_blank"/>
+            <HeaderButtonComponent name="Contact" redirect="#" trgt=""/>
 
             <div className="flex flex-row space-x-2 items-center">
-              <HeaderButtonComponent name="EN" />
-              <HeaderButtonComponent name="PT" />
+              <HeaderButtonComponent name="EN" redirect="#" trgt=""/>
+              <HeaderButtonComponent name="PT" redirect="#" trgt=""/>
             </div>
           </ul>
         </div>
