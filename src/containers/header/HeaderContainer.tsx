@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useState } from "react";
 import HeaderButtonComponent from "../../components/header/HeaderButtonComponent";
 
@@ -41,14 +42,18 @@ function HeaderContainer() {
 
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="flex flex-row space-x-5 items-center">
-              <HeaderButtonComponent name="Home" redirect="#" trgt=""/>
-              <HeaderButtonComponent name="About" redirect="https://drive.google.com/file/d/1HpruuEpz2lR-zojiLVeB52WvnGXHeykL/view?usp=sharing" trgt="_blank"/>
-              <HeaderButtonComponent name="Contact" redirect="#" trgt=""/>
+              <Link href="/">
+                <HeaderButtonComponent name="Home" />
+              </Link>
+              <Link href="/about">
+                <HeaderButtonComponent name="About" />
+              </Link>
+              <HeaderButtonComponent name="Contact" />
 
-              <div className="flex flex-row space-x-2 items-center">
-                <HeaderButtonComponent name="EN" redirect="#" trgt=""/>
-                <HeaderButtonComponent name="PT" redirect="#" trgt=""/>
-              </div>
+              {/* <div className="flex flex-row space-x-2 items-center">
+                <HeaderButtonComponent name="EN" redirect="#" trgt="" />
+                <HeaderButtonComponent name="PT" redirect="#" trgt="" />
+              </div> */}
             </ul>
           </div>
         </div>
@@ -56,14 +61,18 @@ function HeaderContainer() {
       {isOpen && (
         <div className="block pl-8 pb-2 md:hidden" id="navbar-default">
           <ul className="flex flex-col space-y-1">
-            <HeaderButtonComponent name="Home" redirect="#" trgt=""/>
-            <HeaderButtonComponent name="About" redirect="https://drive.google.com/file/d/1HpruuEpz2lR-zojiLVeB52WvnGXHeykL/view?usp=sharing" trgt="_blank"/>
-            <HeaderButtonComponent name="Contact" redirect="#" trgt=""/>
+            <Link href="/">
+              <HeaderButtonComponent name="Home" />
+            </Link>
+            <Link href="/about">
+              <HeaderButtonComponent name="About" />
+            </Link>
+            <HeaderButtonComponent name="Contact" />
 
-            <div className="flex flex-row space-x-2 items-center">
-              <HeaderButtonComponent name="EN" redirect="#" trgt=""/>
-              <HeaderButtonComponent name="PT" redirect="#" trgt=""/>
-            </div>
+            {/* <div className="flex flex-row space-x-2 items-center">
+              <HeaderButtonComponent name="EN" redirect="#" trgt="" />
+              <HeaderButtonComponent name="PT" redirect="#" trgt="" />
+            </div> */}
           </ul>
         </div>
       )}

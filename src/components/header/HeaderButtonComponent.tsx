@@ -2,16 +2,12 @@ import { motion } from "framer-motion";
 
 interface Props {
   name: string;
-  redirect: string;
-  trgt: string;
 }
 
-function HeaderButtonComponent({ name, redirect, trgt }: Props) {
+function HeaderButtonComponent({ name }: Props) {
   return (
     <li>
-      <motion.a
-        href={redirect}
-        target={trgt}
+      <motion.div
         className="inline-block font-main font-regular text-[20px] text-gray-dark"
         aria-current="page"
         whileHover="hover"
@@ -31,7 +27,7 @@ function HeaderButtonComponent({ name, redirect, trgt }: Props) {
             },
           }}
         ></motion.div>
-      </motion.a>
+      </motion.div>
     </li>
   );
 }

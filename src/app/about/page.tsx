@@ -1,15 +1,54 @@
 "use client";
-import React from "react";
-
 import { motion, useScroll, useTransform } from "framer-motion";
 
-function FeedbackContainer() {
+export default function About() {
   const { scrollYProgress } = useScroll();
   return (
     <>
+      <p className="font-main pb-[120px] pt-[100px] px-8 font-regular text-[30px] md:text-[48px] text-gray-dark text-left">
+        Hey, you!
+        <br />
+        Here&apos;s a little
+        <br />
+        more
+      </p>
+      <p className="font-main pb-[120px] px-8 font-bold text-[48px] md:text-[96px] text-brand text-right">
+        ABOUT ME.
+      </p>
+      <div className="pb-[100px] px-8 ">
+        <motion.div
+          aria-current="page"
+          className="relative"
+          whileHover="hover"
+          animate="rest"
+        >
+          <div style={{ width: "300px", height: "60px" }}></div>
+
+          <div className="absolute top-3 left-4 w-full h-15  w-full h-15 flex space-x-10 items-center">
+            <img src="/icons/arrow.svg" alt="Description" />
+            <a className="font-main font-regular text-[25px] text-gray-dark">
+              My Resume
+            </a>
+          </div>
+
+          <motion.div
+            className="absolute top-0 left-0 border border-gray-dark"
+            style={{ originX: 0, height: "100%", borderRadius: "100px" }}
+            initial={false}
+            variants={{
+              rest: {
+                width: 60,
+              },
+              hover: {
+                width: 300,
+              },
+            }}
+          ></motion.div>
+        </motion.div>
+      </div>
       <div className="flex space-x-3 p-8 items-center justify-start">
         <span className="whitespace-nowrap font-main font-regular text-[20px] md:text-[25px] text-gray-dark">
-          Feedback
+          My Journey
         </span>
         <motion.div
           style={{
@@ -19,97 +58,144 @@ function FeedbackContainer() {
           className="h-px bg-gray-dark"
         ></motion.div>
       </div>
-      <div className="bg-white rounded-3xl m-8 p-8">
-        <div className="flex flex-col space-y-8 md:flex-row md:space-x-8 items-stretch justify-center">
-          <div className="flex flex-col space-y-8">
-            <h1 className="font-main font-bold text-[39px] text-brand">“</h1>
-            <p className="font-main font-regular text-[16px] text-gray-dark">
-              Marcella was one of the most competent individuals I&apos;ve come
-              across in over 10 years of professional experience. She was
-              responsible for the development and management of the
-              doebem&apos;s new website project, delivering with high efficiency
-              and quality.
-            </p>
-            <div className="flex space-x-3 items-center">
-              <img
-                src="images/bruno.png"
-                alt="Optimized Logo"
-                className="w-15 h-15 object-cover rounded-full"
-              ></img>
-              <h1 className="font-main font-medium text-[16px] text-black">
-                Bruno Sterenberg
-              </h1>
-            </div>
-          </div>
-
-          <div className="block md:hidden h-[1px] w-full bg-gray-dark"></div>
-          <div className="flex-grow-0 flex-shrink-0 w-[1px] bg-gray-dark self-stretch"></div>
-
-          <div className="flex flex-col space-y-8">
-            <h1 className="font-main font-bold text-[39px] text-brand">“</h1>
-            <p className="font-main font-regular text-[16px] text-gray-dark">
-              Marcella was one of the most competent individuals I&apos;ve come
-              across in over 10 years of professional experience. She was
-              responsible for the development and management of the
-              doebem&apos;s new website project, delivering with high efficiency
-              and quality.
-            </p>
-            <div className="flex space-x-3 items-center">
-              <img
-                src="images/bruno.png"
-                alt="Optimized Logo"
-                className="w-15 h-15 object-cover rounded-full"
-              ></img>
-              <h1 className="font-main font-medium text-[16px] text-black">
-                Bruno Sterenberg
-              </h1>
-            </div>
-          </div>
-
-          <div className="block md:hidden h-[1px] w-full bg-gray-dark"></div>
-          <div className="flex-grow-0 flex-shrink-0 w-[1px] bg-gray-dark self-stretch"></div>
-
-          <div className="flex flex-col space-y-8">
-            <h1 className="font-main font-bold text-[39px] text-brand">“</h1>
-            <p className="font-main font-regular text-[16px] text-gray-dark">
-              Marcella was one of the most competent individuals I&apos;ve come
-              across in over 10 years of professional experience. She was
-              responsible for the development and management of the
-              doebem&apos;s new website project, delivering with high efficiency
-              and quality.
-            </p>
-            <div className="flex space-x-3 items-center">
-              <img
-                src="images/bruno.png"
-                alt="Optimized Logo"
-                className="w-15 h-15 object-cover rounded-full"
-              ></img>
-              <h1 className="font-main font-medium text-[16px] text-black">
-                Bruno Sterenberg
-              </h1>
-            </div>
-          </div>
-        </div>
+      <div className="flex justify-end pb-[100px] pt-[64px] px-8">
+        <p className="font-main font-regular text-[20px] md:text-[25px] text-gray-dark text-left">
+          I am a UX/UI Designer who values{" "}
+          <span className="font-bold">
+            efficiency, uniqueness, and creativity
+          </span>
+          , with an
+          <br />
+          approach that combines psychology and design to create impactful and
+          <br />
+          functional user experiences. My journey began at the end of my
+          Psychology
+          <br /> degree when I realized that conventional career paths in the
+          field, such as clinical
+          <br /> work or HR, no longer sparked my interest. It was then that I
+          came across a course
+          <br /> called "Psychology Applied to UX Design," which ignited a new
+          passion in me:
+          <br /> understanding users, their contexts, and needs, and translating
+          that into strategic
+          <br /> design.
+          <br />
+          <br /> With a degree in Psychology and a professional course in UX/UI
+          Design, I decided
+          <br /> to change careers, leaving my internship in School Psychology
+          and diving <br />
+          headfirst into the world of design. My path began with volunteer work,
+          where I led
+          <br /> the redesign process for a nonprofit's website, learning
+          firsthand the importance
+          <br /> of teamwork, strategic planning, and applying all the knowledge
+          I had gained.
+          <br /> These first steps opened doors to freelance work and eventually
+          led to a position <br />
+          at a tech company focused on payment gateways and sales.
+        </p>
       </div>
-      <svg viewBox="0 0 1000 500">
-        <motion.path
-          id="myPath3"
-          className="text-brand"
-          fill="none"
-          strokeWidth="30"
-          stroke="currentColor"
-          d="M-100 550 C 10 200, 100 400, 200 290 S 250 500 300 400 S 500 0 600 200 S 600 -200 1100 200"
-          pathLength={useTransform(scrollYProgress, [0.92, 0.95], ["0", "1"])}
-        />
-
-        <text fill="white" className="font-main font-semibold text-[20px]">
-          <textPath xlinkHref="#myPath3" dominantBaseline="middle">
-            aaPRODUCT DESIGN Merging psychology and design, I&apos;m here to
-            bring your next standout product to life. Let&apos;s craft effective
-            and authentic solutions customized for your needs
-          </textPath>
-        </text>
-      </svg>
+      <p className="font-main pb-[100px] px-8 font-bold text-[30px] md:text-[64px] text-brandlight text-left">
+        SO IN MY FIRST
+        <br /> MONTH STUDYING <br />
+        UX, I FELT IN LOVE
+      </p>
+      <div className="flex space-x-3 p-8 items-center justify-start">
+        <span className="whitespace-nowrap font-main font-regular text-[20px] md:text-[25px] text-gray-dark">
+          UX in My Life
+        </span>
+        <motion.div
+          style={{
+            width: useTransform(scrollYProgress, [0.85, 0.9], ["0%", "100%"]),
+            originX: 0,
+          }}
+          className="h-px bg-gray-dark"
+        ></motion.div>
+      </div>
+      <div className="flex justify-end pb-[100px] pt-[64px] px-8">
+        <p className="font-main font-regular text-[20px] md:text-[25px] text-gray-dark text-left">
+          For me, UX/UI Design is much more than just creating beautiful
+          screens. My work
+          <br /> is about thinking differently in a world where everything seems
+          to be copied,
+          <br /> seeking solutions that are not only aesthetically pleasing but
+          also functional and
+          <br /> usable. My decisions are always guided by{" "}
+          <span className="font-bold">
+            user needs, backed by research and
+            <br /> methodologies
+          </span>
+          .
+          <br />
+          <br />I value three fundamental pillars:{" "}
+          <span className="font-bold">
+            communication, research, and
+            <br />
+            documentation
+          </span>
+          . I believe that good design is the result of a collaborative process,
+          <br /> where feedback is essential, and continuous iterations ensure
+          constant product
+          <br /> improvement. I am always studying and staying updated, not only
+          in UX but also
+          <br /> in areas such as market trends, branding, and brand strategy. I
+          have a special
+          <br /> interest in technology, innovation, and especially education,
+          believing that it is
+          <br />
+          through education that the foundations of a better society are built.
+        </p>
+      </div>
+      <p className="font-main pb-[100px] px-8 font-bold text-[30px] md:text-[64px] text-brandlight text-left">
+        THERE IS NO GOOD
+        <br /> PROJECT WITHOUT <br />
+        STUDY
+      </p>
+      <div className="flex space-x-3 p-8 items-center justify-start">
+        <span className="whitespace-nowrap font-main font-regular text-[20px] md:text-[25px] text-gray-dark">
+          Outside the Office
+        </span>
+        <motion.div
+          style={{
+            width: useTransform(scrollYProgress, [0.85, 0.9], ["0%", "100%"]),
+            originX: 0,
+          }}
+          className="h-px bg-gray-dark"
+        ></motion.div>
+      </div>
+      <div className="flex justify-end pb-[100px] pt-[64px] px-8">
+        <p className="font-main font-regular text-[20px] md:text-[25px] text-gray-dark text-left">
+          I’m Marcella, originally from Maceió, Brazil, a city known for having
+          some of the
+          <br /> most beautiful beaches in the world. Recently, I embraced an
+          incredible <br />
+          opportunity to move to Hamilton, Canada, where I’m continuing my
+          journey in <br />
+          UX/UI design.
+          <br />
+          <br /> My background in psychology, combined with my passion for art,
+          led me to
+          <br /> discover UX design during my studies. Halfway through my
+          psychology degree, I <br />
+          realized that traditional paths in the field didn’t resonate with me.
+          That's when I<br /> found a way to merge my love for art with my
+          understanding of human behavior, <br />
+          diving into the world of UX. <br />
+          <br />
+          Outside of work, I’m an art lover who enjoys painting, reading, and
+          staying <br />
+          inspired through social media, where I follow key voices in the UX
+          industry. I <br />
+          actively participate in workshops and networking events to keep
+          learning and <br />
+          growing. My goal is to continue evolving in the field, explore diverse
+          themes <br />
+          through my projects, and maybe even teach one day. With the rise of
+          <br /> technologies like AI, I believe UX has a bright future, and I’m
+          excited to be part of <br />
+          it.
+        </p>
+      </div>
       <div className="w-full h-px bg-gray-dark"></div>
       <div className="flex md:flex-row flex-col items-center justify-center">
         <div className="flex flex-col space-y-8 items-center flex-1 m-[88px]">
@@ -256,5 +342,3 @@ function FeedbackContainer() {
     </>
   );
 }
-
-export default FeedbackContainer;
