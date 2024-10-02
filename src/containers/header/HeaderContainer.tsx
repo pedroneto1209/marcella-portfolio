@@ -48,7 +48,9 @@ function HeaderContainer() {
               <Link href="/about">
                 <HeaderButtonComponent name="About" />
               </Link>
-              <HeaderButtonComponent name="Contact" />
+              <Link href="mailto:marcellacavalcanti.design@gmail.com">
+                <HeaderButtonComponent name="Contact" />
+              </Link>
 
               {/* <div className="flex flex-row space-x-2 items-center">
                 <HeaderButtonComponent name="EN" redirect="#" trgt="" />
@@ -67,7 +69,10 @@ function HeaderContainer() {
             <Link href="/about">
               <HeaderButtonComponent name="About" />
             </Link>
-            <HeaderButtonComponent name="Contact" />
+
+            <Link href="mailto:marcellacavalcanti.design@gmail.com">
+              <HeaderButtonComponent name="Contact" />
+            </Link>
 
             {/* <div className="flex flex-row space-x-2 items-center">
               <HeaderButtonComponent name="EN" redirect="#" trgt="" />
