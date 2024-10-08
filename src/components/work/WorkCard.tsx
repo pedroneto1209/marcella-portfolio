@@ -58,7 +58,7 @@ function WorkCard({ name, title1, title2, description, link }: Props) {
 
         <Link href={link}>
           <motion.div
-            className="absolute bottom-[238px] right-8"
+            className="absolute bottom-[150px] right-8"
             variants={{
               rest: { opacity: 0 },
               hover: {

@@ -27,25 +27,25 @@ function WorkContainer() {
       </div>
       <div className="flex flex-col md:flex-row space-y-3 md:space-x-3 px-8 items-center justify-center">
         <WorkCard
-          name="card-byte"
-          title1="BYTE"
-          title2="CRIATIVO"
-          description="CREATION OF THE WEBSITE FOR A NEW COMPANY WITH THE AIM OF CONSOLIDATION IT WITHIN THE MARKET"
-          link="https://medium.com/@marcellaclopes/designing-a-software-house-landing-page-a-double-diamond-approach-9ba2be1deb8f"
+          name="card-baja"
+          title1="MANGUE"
+          title2="BAJA"
+          description="DASHBOARD FOR MONITORING DYNAMIC DATA CHARTS OF UFPE'S BAJA PROJECT CAR"
+          link=""
         />
         <WorkCard
           name="card-doebem"
           title1="ONG"
           title2="DOEBEM"
-          description="CREATION OF THE WEBSITE FOR A NEW COMPANY WITH THE AIM OF CONSOLIDATION IT WITHIN THE MARKET"
+          description="LEAD OF NGO WEBSITE REDESIGN TO INCREASE DONATIONS"
           link="https://medium.com/@marcellaclopes/redesigning-an-ngo-website-my-product-design-journey-1b144af411a8"
         />
         <WorkCard
-          name="card-mais"
-          title1="MAIS"
-          title2="VALUE"
-          description="CREATION OF THE WEBSITE FOR A NEW COMPANY WITH THE AIM OF CONSOLIDATION IT WITHIN THE MARKET"
-          link=""
+          name="card-byte"
+          title1="BYTE"
+          title2="CRIATIVO"
+          description="CREATION OF A LANDING PAGE FOR A NEW COMPANY TO ESTABLISH ITS MARKET PRESENCE"
+          link="https://medium.com/@marcellaclopes/designing-a-software-house-landing-page-a-double-diamond-approach-9ba2be1deb8f"
         />
       </div>
       <div className="flex flex-col md:flex-row justify-between px-8 py-20 md:items-end">
