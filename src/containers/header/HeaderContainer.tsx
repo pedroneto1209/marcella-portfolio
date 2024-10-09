@@ -34,6 +34,8 @@ function HeaderContainer() {
               viewBox="0 0 40 26"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="auto"
             >
               <line y1="1" x2="40" y2="1" stroke="#484848" />
               <line y1="13" x2="40" y2="13" stroke="#484848" />
