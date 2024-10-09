@@ -1,5 +1,5 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useEffect, useState, useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 interface Props {
   name: string;
@@ -7,11 +7,28 @@ interface Props {
 }
 
 function SkillsCard({ name, description }: Props) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check if the screen width is 768px or less (mobile)
+    const checkIfMobile = () => setIsMobile(window.innerWidth <= 768);
+
+    // Initial check
+    checkIfMobile();
+
+    // Update on resize
+    window.addEventListener("resize", checkIfMobile);
+    return () => window.removeEventListener("resize", checkIfMobile);
+  }, []);
+
   return (
     <motion.div
+      ref={ref}
       aria-current="page"
       whileHover="hover"
-      animate="rest"
+      animate={isMobile && isInView ? "hover" : "rest"}
       className="flex flex-col justify-between items-start skill-cards bg-brand rounded-3xl w-40 md:w-80 px-2 md:px-8 py-6 md:py-[60px]"
     >
       <img

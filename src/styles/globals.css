@@ -18,3 +18,7 @@
 .sticky-element {
   z-index: 1; /* Lower z-index on mobile */
 }
+
+body {
+  overflow-x: hidden;
+}
