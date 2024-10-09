@@ -23,8 +23,12 @@ function ProfileImage() {
         className="w-screen h-screen object-cover"
       />
 
-      <div className="absolute top-0 left-0 w-full h-full">
-        <svg viewBox="0 0 1000 500">
+      <div className="absolute inset-0 w-full h-full flex justify-center items-center">
+        <svg
+          viewBox="0 0 1000 500"
+          preserveAspectRatio="xMidYMid meet"
+          className="w-full h-full"
+        >
           <motion.path
             id="myPath"
             className="text-brand"

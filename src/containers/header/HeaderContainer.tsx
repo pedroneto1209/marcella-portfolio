@@ -31,7 +31,6 @@ function HeaderContainer() {
             aria-expanded="false"
           >
             <svg
-              className={`${isOpen ? "hidden" : "block"}`}
               viewBox="0 0 40 26"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
