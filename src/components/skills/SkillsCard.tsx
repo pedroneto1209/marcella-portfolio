@@ -26,13 +26,21 @@ function SkillsCard({ name, description }: Props) {
         </h2>
 
         <motion.div
-          className="w-full"
-          initial={false}
+          className="w-full overflow-hidden"
+          initial="rest"
+          animate="rest"
+          whileHover="hover"
           variants={{
-            rest: { opacity: 0, height: 0 },
-            hover: { opacity: 1, height: "100px" },
+            rest: { height: 0, opacity: 0 },
+            hover: {
+              height: "auto",
+              opacity: 1,
+              transition: {
+                height: { duration: 0.4 },
+                opacity: { delay: 0.4, duration: 0.2 },
+              },
+            },
           }}
-          transition={{ type: "spring", stiffness: 120, damping: 20 }}
         >
           <div className="flex flex-col items-start space-y-3">
             <div className="w-full h-px bg-white"></div>

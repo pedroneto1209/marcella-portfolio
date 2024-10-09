@@ -44,7 +44,8 @@ function SkillsContainer() {
             <text className="font-main font-semibold text-[20px]">
               <textPath xlinkHref="#myPath2" dominantBaseline="middle">
                 PRODUCT DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT
-                DESIGN * UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN *
+                DESIGN * UX DESIGN * UI DESIGN *
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YCHOLOGY * PRODUCT DESIGN *
                 UX DESIGN * UI DESIGN * PSYCHOLOGY * PRODUCT DESIGN * UX DESIGN
                 * UI DESIGN * PSYCHOLOGY
               </textPath>

@@ -31,7 +31,7 @@ function WorkContainer() {
           title1="MANGUE"
           title2="BAJA"
           description="DASHBOARD FOR MONITORING DYNAMIC DATA CHARTS OF UFPE'S BAJA PROJECT CAR"
-          link=""
+          link="https://medium.com/@marcellaclopes/creating-a-real-time-dashboard-for-mangue-baja-using-design-sprint-d5012e1b401d"
         />
         <WorkCard
           name="card-doebem"
