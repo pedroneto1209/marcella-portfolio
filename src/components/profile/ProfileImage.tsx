@@ -7,7 +7,7 @@ function ProfileImage() {
   return (
     <motion.div
       initial={{ padding: "0 0 0 0" }}
-      animate={{ padding: "0 32px 0 32px" }}
+      animate={{ padding: "32px 32px 32px 32px" }}
       transition={{ type: "spring", stiffness: 120, damping: 20, delay: 3 }}
       className="relative"
     >
@@ -20,7 +20,7 @@ function ProfileImage() {
         width={0}
         height={0}
         sizes="100vw"
-        className="w-full"
+        className="w-screen h-screen object-cover"
       />
 
       <div className="absolute top-0 left-0 w-full h-full">

@@ -21,7 +21,7 @@ function ProfileContainer() {
             Be Effective
           </h1>
           <h1 className="font-main font-semibold text-[40px] md:text-[61px] text-black">
-            Be Created
+            Be Creative
           </h1>
         </div>
       </motion.div>
