@@ -27,9 +27,7 @@ function SkillsCard({ name, description }: Props) {
 
         <motion.div
           className="w-full overflow-hidden"
-          initial="rest"
-          animate="rest"
-          whileHover="hover"
+          initial={false}
           variants={{
             rest: { height: 0, opacity: 0 },
             hover: {
