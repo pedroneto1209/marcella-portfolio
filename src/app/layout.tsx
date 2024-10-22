@@ -6,9 +6,9 @@ export const metadata = {
     description: 'I am a UX/UI Designer who values efficiency, uniqueness, and creativity, with an approach that combines psychology and design to create impactful and functional user experiences.',
     images: [
       {
-        url: '/images/image_preview.png', // Relative path to the image in the `public` folder
-        width: 1800,
-        height: 840,
+        url: 'https://marcella-portfolio.vercel.app/images/image_preview.png', // Use absolute URL
+        width: 1200,
+        height: 630,
         alt: 'Marcella Cavalcanti Design',
       },
     ],
@@ -16,12 +16,13 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary_large_image', // Use 'summary_large_image' to ensure a large preview
+    card: 'summary_large_image',
     title: 'Marcella Cavalcanti - Portfolio',
     description: 'I am a UX/UI Designer who values efficiency, uniqueness, and creativity, with an approach that combines psychology and design to create impactful and functional user experiences.',
-    images: ['/images/image_preview.png'], // Ensure the image path is consistent
+    images: ['https://marcella-portfolio.vercel.app/images/image_preview.png'], // Use absolute URL
   },
 };
+
 
 
 import HeaderContainer from "@/containers/header/HeaderContainer";
