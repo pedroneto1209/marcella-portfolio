@@ -18,7 +18,7 @@ export default function About() {
         ABOUT ME.
       </p>
       <div className="pb-[100px] px-8 ">
-        <Link href="https://drive.google.com/file/d/1HpruuEpz2lR-zojiLVeB52WvnGXHeykL/view?usp=sharing">
+        <Link href="https://docs.google.com/document/d/e/2PACX-1vSNsuHq_SpwxPghIn0Xro9y2INKvWUd_0VQb83XkKRfroq6wWfg7Zqn6DCQN34eGxtT1VOn_aoHz9R9/pub">
           <motion.div
             aria-current="page"
             className="relative"

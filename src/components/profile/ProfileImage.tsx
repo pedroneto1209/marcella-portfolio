@@ -15,7 +15,7 @@ function ProfileImage() {
         initial={{ borderRadius: 0 }}
         animate={{ borderRadius: "24px" }}
         transition={{ type: "spring", stiffness: 120, damping: 20, delay: 3 }}
-        src="/images/profile.jpeg"
+        src="/images/profile.png"
         alt="Optimized Logo"
         width={0}
         height={0}
