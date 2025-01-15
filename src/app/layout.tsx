@@ -1,5 +1,8 @@
 export const metadata = {
   title: 'Marcella Cavalcanti - Portfolio',
+  icons: {
+    icon: '/src/app/favicon.ico',
+  },
   description: 'I am a UX/UI Designer who values efficiency, uniqueness, and creativity, with an approach that combines psychology and design to create impactful and functional user experiences.',
   openGraph: {
     title: 'Marcella Cavalcanti - Portfolio',
