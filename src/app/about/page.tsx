@@ -207,7 +207,7 @@ export default function About() {
             Let&apos;s make an authentic <br /> product together
           </h1>
 
-          <Link href="mailto:marcellacavalcanti.design@gmail.com">
+          <Link href="https://forms.gle/XhqYtL9ZAsS5KLvL7">
             <motion.div
               aria-current="page"
               className="relative"
@@ -232,7 +232,7 @@ export default function About() {
                   />
                 </svg>
                 <a className="font-main font-regular text-[25px] text-black">
-                  Email me!
+                  Contact me!
                 </a>
               </div>
 
@@ -281,7 +281,7 @@ export default function About() {
             </h1>
           </Link>
           <div className="block h-[1px] w-full bg-gray-dark"></div>
-          <Link href="mailto:marcellacavalcanti.design@gmail.com">
+          <Link href="https://forms.gle/XhqYtL9ZAsS5KLvL7">
             <h1 className="font-main font-medium text-[31px] text-black mx-8">
               Contact
             </h1>
