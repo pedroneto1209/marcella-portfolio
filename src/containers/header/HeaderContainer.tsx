@@ -51,7 +51,7 @@ function HeaderContainer() {
               <Link href="/about">
                 <HeaderButtonComponent name="About" />
               </Link>
-              <Link href="mailto:marcellacavalcanti.design@gmail.com">
+              <Link href="https://forms.gle/XhqYtL9ZAsS5KLvL7">
                 <HeaderButtonComponent name="Contact" />
               </Link>
 
