@@ -119,7 +119,7 @@ function FeedbackContainer() {
               whileHover="hover"
               animate="rest"
             >
-              <div style={{ width: "236px", height: "60px" }}></div>
+              <div style={{ width: "250px", height: "60px" }}></div>
 
               <div className="absolute top-3 left-4 w-full h-15  w-full h-15 flex space-x-10 items-center">
                 <svg
