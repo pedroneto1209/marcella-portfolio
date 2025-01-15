@@ -112,7 +112,7 @@ function FeedbackContainer() {
             Let’s make an authentic <br /> product together
           </h1>
 
-          <Link href="mailto:marcellacavalcanti.design@gmail.com">
+          <Link href="https://forms.gle/XhqYtL9ZAsS5KLvL7">
             <motion.div
               aria-current="page"
               className="relative"
@@ -137,7 +137,7 @@ function FeedbackContainer() {
                   />
                 </svg>
                 <a className="font-main font-regular text-[25px] text-black">
-                  Email me!
+                  Contact me!
                 </a>
               </div>
 
