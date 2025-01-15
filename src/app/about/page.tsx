@@ -245,7 +245,7 @@ export default function About() {
                     width: 60,
                   },
                   hover: {
-                    width: 236,
+                    width: 250,
                   },
                 }}
               ></motion.div>
